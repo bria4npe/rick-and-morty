@@ -47,3 +47,7 @@ cd back && npm test
 # Frontend
 cd front && npm test
 ```
+
+## Funcionamiento
+
+<img width="1063" height="1473" alt="Animation" src="https://github.com/user-attachments/assets/50b235f8-876a-48e8-b0f3-a81d2571cff0" />
