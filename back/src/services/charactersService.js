@@ -1,8 +1,8 @@
 import axios from "axios";
+
 import { toSummary, toDetail } from "../mappers/characterMapper.js";
 
-const DEFAULT_API_URL = "https://rickandmortyapi.com/api";
-const BASE_URL = process.env.RICKMORTY_API_URL ?? DEFAULT_API_URL;
+const BASE_URL = process.env.RICKMORTY_API_URL ?? "";
 
 export async function findCharacters({ name = "", page = 1 } = {}) {
   const params = { page };
